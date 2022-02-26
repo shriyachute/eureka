@@ -3,13 +3,14 @@
     "name": "Pocket Canvas",
     "description": "A easier way to view and manage college assignments in any tab.",
     "version": "1.0",
+    "author": "Tanya Acharya, Shriya Chute",
 
-    "background": {
-        "service_worker": "popup.js"
-    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Pocket Canvas"
+    }
 
-    "action": {
-        "default_popup": "popup.html"
-      }
+    
+
 }
   
