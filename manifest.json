@@ -5,7 +5,11 @@
     "version": "1.0",
 
     "background": {
-        "place_holder": "placeholder.js"
-    }
+        "service_worker": "popup.js"
+    },
+
+    "action": {
+        "default_popup": "popup.html"
+      }
 }
   
