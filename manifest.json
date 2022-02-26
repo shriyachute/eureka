@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Pocket Canvas",
+    "description": "A easier way to view and manage college assignments in any tab.",
+    "version": "1.0",
+
+    "background": {
+        "place_holder": "placeholder.js"
+    }
+}
+  
