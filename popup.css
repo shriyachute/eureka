@@ -1,13 +1,13 @@
 .settings {
     background-color : #0000c0;
-    color: white;
+    color: rgb(255, 0, 0);
     padding: 10px 20px;
     border-radius: 4px;
-    border-color: #ababac;
+    border-color: #3cff00;
   }
   
   #button {
     position: fixed;
-    bottom: -4px;
-    right: 10px;
+    bottom: 0;
+    right: 0;
   }

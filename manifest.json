@@ -8,10 +8,8 @@
     "browser_action": {
 
         "default_popup": "popup.html",
-        "default_title": "Pocket Canvas"
+        "default_title": "Pocket Canvas",
+        "default_icon": "bigger_non_pixelated_logo-removebg-preview.png"
     }
-
-    
-
 }
   
