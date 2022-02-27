@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>To Do List</title>
-  </head>
-  <style type="text/css">
-    body {
-      margin: 5px;
-    }
 
-    h1 {
-      font-size: 15px;
-      text-align: center;
-    }
-  </style>
-  <body>
-    <h1>Click This!</h1>
-    <button id="clickIt">Click</button>
-  </body>
-  <script src="popup.js"></script>
+<head>
+  <title>To Do List</title>
+</head>
+<style type="text/css">
+  body {
+
+    margin: 15px;
+    height: 275px;
+    width: 275px;
+  }
+
+  h1 {
+    font-size: 15px;
+    text-align: left;
+  }
+</style>
+
+<body style="background-color: bisque;">
+  <h1><script src="date.js"></script></h1>
+  <h1 style="font-family:monospace">Click This!</h1>
+  <form action="/action_page.php">
+    <input type="checkbox" id="check1" name="check1">
+    <label for="check1"> physics hw</label><br>
+    <input type="checkbox" id="check2" name="check2">
+    <label for="check2"> study for cs test</label><br>
+    <input type="checkbox" id="check3" name="check3">
+    <label for="check3"> add notes to group project</label><br><br>
+    <div id="button">
+      <button class="settings">
+        <img src="settings.png" width="30" height="30" alt />
+      </button>
+    </div>
+  </form>
+  <button id="clickIt">Click</button>
+</body>
+<script src="popup.js"></script>
+
 </html>
