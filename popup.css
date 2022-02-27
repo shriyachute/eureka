@@ -1,3 +1,5 @@
+
+
 .settings {
     background-color : #0000c0;
     color: rgb(255, 0, 0);
@@ -6,8 +8,19 @@
     border-color: #3cff00;
   }
   
-  #button {
+  .button {
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
+  }
+
+#header1 image {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+  }
+
+  p {
+      color:#0000c0;
+      text-align: center;
   }

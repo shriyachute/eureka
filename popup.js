@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   checkPageButton.addEventListener('click', function() {
 
     chrome.tabs.getSelected(null, function(tab) {
-      alert("Hello! Here's your To Do list.");
+      alert("Hello! Here are your list settings.");
     } );
   }, false);
 }, false);
